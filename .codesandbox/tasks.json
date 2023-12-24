@@ -3,5 +3,11 @@
   "setupTasks": [],
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
-  "tasks": {}
+  "tasks": {
+    "Alist server": {
+      "name": "Alist server",
+      "command": "/app/alist server",
+      "runAtStart": true
+    }
+  }
 }
